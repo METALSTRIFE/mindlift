@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F2F2F5;
+    color: #2B2B2B;
+}
+
+
+header {
+    background-color: #7B6EEA; 
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 4px solid #4ABBB1; 
+}
+
+header h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+section h2, h3 {
+    color: #4ABBB1; 
+    margin-top: 2rem;
+    text-align: center;
+}
+section {
+    padding: 1.5rem 2rem;
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(123, 110, 234, 0.1);
+    margin-bottom: 2rem;
+}
+
+section p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+ul {
+    list-style: square;
+    padding-left: 1.5rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #F6F7FA;
+}
+
+td {
+    padding: 1rem;
+    border: 1px solid #d1d1d1;
+    vertical-align: top;
+    color: #2B2B2B;
+}
+
+a {
+    color: #4ABBB1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #7B6EEA;
+}
+
+button {
+    background-color: #4ABBB1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3fa79e;
+}
+input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    margin-top: 0.5rem;
+}
+footer {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding: 1rem;
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 2px solid #7B6EEA;
+}
+
+img {
+  width: 200px;         
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;   
+}
